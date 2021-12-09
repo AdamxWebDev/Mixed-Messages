@@ -22,7 +22,7 @@ For this project, you will build a message generator program. Every time a user 
 
 ---
 
-In this project I decided to use insperational quotes. I created 50 variables with the strings and then put them into an array. Creating a random number using that Math object I made a function that when an array is entered as an argument calls a random index number and logs the stored string.
+In this project I decided to use insperational quotes. I created 50 variables with the strings and then put them into an array. Creating a random number using the Math object I made a function that when an array is entered as an argument calls a random index number and logs the stored string.
 
 ---
 
