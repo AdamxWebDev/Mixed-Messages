@@ -19,7 +19,7 @@ In this project I decided to use insperational quotes. I created 50 variables wi
 
 ---
 
-[Source: Codecademy]: https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-javascript-syntax-portfolio-project/modules/fscp-mixed-messages/kanban_projects/mixed-messages
+[Source Codecademy](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-javascript-syntax-portfolio-project/modules/fscp-mixed-messages/kanban_projects/mixed-messages)
 
 ---
 
