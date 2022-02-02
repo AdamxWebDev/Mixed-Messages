@@ -110,4 +110,9 @@ const randomQuote = (arr) => {
     return console.log(`${arr[randIndex]}`)
 };
 
-randomQuote(messageArray)
+const quote = document.getElementsById("quote");
+const button = document.getElementsByClassName("button");
+
+
+
+button.addEventListener("click", () => {quote.textContent = randomQuote(messageArray)});
