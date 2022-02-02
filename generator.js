@@ -110,12 +110,22 @@ const randomQuote = (arr) => {
     return arr[randIndex];
 };
 
-const quote = document.getElementById("quote");
+const quote = document.getElementById("QUOTE_CONTAINER");
 const button = document.querySelector("#button");
 
 const func = () => {
-    quote.innerHTML = randomQuote(messageArray)
+    const node = document.createElement("P");
+    const textnode = document.createTextNode(randomQuote(messageArray));
+    node.appendChild(textnode);
+    node.id = "quoteP"
+    node.className = "animated"
+    quote.appendChild(node); 
+}
+
+const toBeRemoved = () => {
+    quote.removeChild(document.getElementById("quoteP"))
 }
 
 func()
 button.addEventListener("click", func);
+button.addEventListener("click", toBeRemoved)

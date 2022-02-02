@@ -14,16 +14,26 @@ h1 {
     width: 80vw;
     margin: 5% auto;
 }
-#quote {
-    font-family: 'Caveat', cursive;
-    font-size: 3rem;
-    font-weight: 500;
-}
 #QUOTE_CONTAINER {
     height: 200px;
     width: 70vw;
     margin: 0 auto;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    font-weight: 500;
 }
 #button {
     margin: 2rem 0;
+    font-size: 1.25rem;
+    font-family: 'Old Standard TT', serif;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
 }
+.animated {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
