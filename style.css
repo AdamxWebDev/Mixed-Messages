@@ -6,10 +6,24 @@ html {
     background-color: black;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 600;
+    font-family: 'Old Standard TT', serif;
 }
 .container {
-    width: 100vw;
+    width: 80vw;
     margin: 5% auto;
+}
+#quote {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    font-weight: 500;
+}
+#QUOTE_CONTAINER {
+    height: 200px;
+    width: 70vw;
+    margin: 0 auto;
+}
+#button {
+    margin: 2rem 0;
 }

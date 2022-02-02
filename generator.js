@@ -107,12 +107,15 @@ const messageArray = [message1,message2,message3,message4,message5,message6,mess
 
 const randomQuote = (arr) => {
     let randIndex = Math.floor(Math.random() * 50)
-    return console.log(`${arr[randIndex]}`)
+    return arr[randIndex];
 };
 
-const quote = document.getElementsById("quote");
-const button = document.getElementsByClassName("button");
+const quote = document.getElementById("quote");
+const button = document.querySelector("#button");
 
+const func = () => {
+    quote.innerHTML = randomQuote(messageArray)
+}
 
-
-button.addEventListener("click", () => {quote.textContent = randomQuote(messageArray)});
+func()
+button.addEventListener("click", func);
