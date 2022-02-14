@@ -117,7 +117,7 @@ const func = () => {
     const node = document.createElement("P");
     const textnode = document.createTextNode(randomQuote(messageArray));
     node.appendChild(textnode);
-    node.id = "quoteP"
+    node.id = "quoteP";
     node.className = "animated"
     quote.appendChild(node); 
 }
